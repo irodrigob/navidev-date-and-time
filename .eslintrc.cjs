@@ -3,7 +3,7 @@ module.exports = {
     browser: true,
     es2021: true,
   },
-  extends: ["standard-with-typescript", "plugin:react/recommended"],
+  extends: ["standard-with-typescript"],
   overrides: [
     {
       env: {
@@ -20,6 +20,6 @@ module.exports = {
     sourceType: "module",
     project: "./tsconfig.json",
   },
-  plugins: ["react"],
+  
   rules: {},
 };

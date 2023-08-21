@@ -15,14 +15,16 @@
     "noEmit": true, 
     "baseUrl": "./src",
     "rootDir": ".",
-     "outDir": "build",
+    "outDir": "./dist",
     /* Linting */
     "strict": true,
     "noUnusedLocals": false,
     "noUnusedParameters": false,
     "noFallthroughCasesInSwitch": true,
     //"noImplicitAny":false
+    // El esModuleInterop quita un warning que aparece al ejecutar es ts-jest
+     "esModuleInterop": true /* Enables emit interoperability between CommonJS and ES Modules via creation of namespace objects for all imports. Implies 'allowSyntheticDefaultImports'. */
   },
-   "exclude": ["node_modules", "build"],
+   "exclude": ["node_modules", "dist","test"],
   "include": ["src"]
 }
