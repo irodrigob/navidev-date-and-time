@@ -8,6 +8,7 @@ module.exports = {
     {
       env: {
         node: true,
+        browser: true,
       },
       files: [".eslintrc.{js,cjs}"],
       parserOptions: {
@@ -16,9 +17,7 @@ module.exports = {
     },
   ],
   parserOptions: {
-    ecmaVersion: "latest",
-    sourceType: "module",
-    project: "./tsconfig.json",
+    
   },
   
   rules: {},

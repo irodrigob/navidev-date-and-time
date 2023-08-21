@@ -1,11 +1,11 @@
 setenv.js
 .vscode
 src/
-build/test
-test/
+dist/test
 *.tgz
 *.md
 node_modules
 tmp
 tsconfig.json
 tslint.json
+coverage
