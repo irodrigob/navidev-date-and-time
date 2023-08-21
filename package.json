@@ -1,0 +1,33 @@
+{
+	  "name": "navidev-date-and-time",
+  "version": "0.0.1",
+  "description": "Utilidades de fecha y hora",
+  "outDir": "build",
+  "main": "build/index.ts",
+  "types": "build/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "prepublishOnly": "tsc",
+    "test": "jest"
+  },
+  "keywords": [
+    "DATE",
+    "TIME"
+  ],
+  "author": "Iván Rodrigo",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+	"devDependencies": {
+		"@typescript-eslint/eslint-plugin": "^6.1.0",
+		"eslint": "^8.0.1",
+		"eslint-config-standard-with-typescript": "^38.0.0",
+		"eslint-plugin-import": "^2.25.2",
+		"eslint-plugin-n": "^15.0.0 || ^16.0.0 ",
+		"eslint-plugin-promise": "^6.0.0",
+		"typescript": "^5.1.6"
+	}
+}
