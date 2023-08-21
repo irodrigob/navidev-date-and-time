@@ -1,9 +1,11 @@
 {
   "name": "navidev-date-and-time",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Utilidades de fecha y hora",  
+  "outDir": "dist",
   "main": "dist/index.js",
-  "types": "dist/index.d.ts",  
+  "types": "dist/index.d.ts",
+   
   "scripts": {
     "build": "tsc",
     "watch": "tsc -w",
