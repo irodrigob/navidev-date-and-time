@@ -1,4 +1,4 @@
-import DateUtils from "../dateUtils";
+import DateUtils from "../index";
 
 test("Transformar una fecha", () => {
   let date = new DateUtils();
