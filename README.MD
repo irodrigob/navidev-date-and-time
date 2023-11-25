@@ -6,7 +6,7 @@ No he migrado toda la funcionalidad de la librería original, solo he hecho la p
 
 Además, una funcionalidad
 
-## Instalación
+# Instalación
 
 Es muy simplie:
 
@@ -20,7 +20,7 @@ o
 npm install navidev-date-and-time
 ```
 
-## Como usarla
+# Como usarla
 
 Lo primero es importar la librería:
 
@@ -40,9 +40,9 @@ Y llamar al método:
 let d = dateUtils.transform("15.08.2023", "DD.MM.YYYY", "YYYY-MM-DD");
 ```
 
-## API
+# API
 
-### Tokens
+## Tokens
 
 Los tokens son como se quiere que vea los días, meses, año, fecha y hora cuando se hacen transformación, formateo, etc..
 
@@ -72,7 +72,7 @@ Los tokens habilitados son los siguientes:
 | Z     | Zona horaria                     | +0100, -0800      |
 | ZZ    | Zona horaria con :               | +01:00, -08:00    |
 
-### TRANSFORM
+## TRANSFORM
 
 Método que transforma una fecha char con un formato determinado a otro formato.
 
@@ -85,7 +85,7 @@ El método tiene los siguientes parámetros:
 
 El método devuelve la fecha en formato string.
 
-### FORMAT
+## FORMAT
 
 Formatea una fecha en JS a un fecha con un formato determinado.
 
@@ -97,7 +97,7 @@ El método tiene los siguientes parámetros:
 
 El método devuelve la fecha en formato string.
 
-### PARSE
+## PARSE
 
 Se le pasa una fecha string con un formato determinado y devuelve la fecha en formato JS.
 
@@ -108,7 +108,7 @@ El método tiene los siguientes parámetros:
 
 El método devuelve la fecha en formato JS.
 
-### addMonths, addDays, addHours, addMinutes, addSeconds, addMilliseconds
+## addMonths, addDays, addHours, addMinutes, addSeconds, addMilliseconds
 
 Métodos que permite añadir meses, días, horas, minutos, segundos o milisegundos a un fecha en formato JS.
 
