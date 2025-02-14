@@ -1,6 +1,6 @@
 {
   "name": "navidev-date-and-time",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Utilidades de fecha y hora",
   "outDir": "dist",
   "main": "dist/index.js",
