@@ -5,7 +5,6 @@
   "outDir": "dist",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "type": "module",
   "scripts": {
     "build": "tsc",
     "watch": "tsc -w",
