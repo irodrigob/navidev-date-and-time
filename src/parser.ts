@@ -1,4 +1,4 @@
-import { A } from "./types.d";
+import { A } from "./types";
 
 type parserReturn = {
   value: number;

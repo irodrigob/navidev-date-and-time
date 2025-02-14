@@ -1,4 +1,4 @@
-import { A } from "./types.d";
+import { A } from "./types";
 
 interface DateTimeFormattersInterface {
   [key: string]: (d: Date) => string;
