@@ -1,6 +1,7 @@
 Para publicar en NPM hay que seguir estos pasos:
 
 1) Sincronizar el proyecto en github
+1.1) Hacer el npm run build
 2) Ejecutar el comando: pnpm publish --dry-run
 3) Si todo va bien ejecutar el comando: pnpm publish
 
