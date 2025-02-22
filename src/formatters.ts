@@ -23,10 +23,10 @@ const dateTimeFormatters: DateTimeFormattersInterface = {
     return "" + d.getFullYear();
   },
   MM: (d: Date) => {
-    return ("0" + (d.getMonth() + 1)).slice(-2);
+    return ("0" + d.getMonth()).slice(-2);
   },
   M: (d: Date) => {
-    return "" + (d.getMonth() + 1);
+    return "" + d.getMonth();
   },
   HH: (d: Date) => {
     return ("0" + d.getHours()).slice(-2);
